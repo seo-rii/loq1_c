@@ -7,11 +7,11 @@ const int BOARD_SIZE = 9;
 const int I_COUNT = 7;
 const int L_COUNT = 3;
 
-unsigned char abs(unsigned char x) { return x > 0 ? x : -x; }
+unsigned char abs(unsigned char x);
 
-unsigned char max(unsigned char x, unsigned char y) { return x > y ? x : y; }
+unsigned char max(unsigned char x, unsigned char y);
 
-unsigned char min(unsigned char x, unsigned char y) { return x < y ? x : y; }
+unsigned char min(unsigned char x, unsigned char y);
 
 class State {
     Point k, p;
