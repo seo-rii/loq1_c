@@ -5,5 +5,5 @@
 [[nodiscard]] unsigned char Point::y() const { return t & 0xf; }
 
 unsigned char Point::distance(const Point &r) const {
-    return abs(x() - r.x()) + abs(y() - r.y());
+    return ABS(x() - r.x()) + ABS(y() - r.y());
 }
